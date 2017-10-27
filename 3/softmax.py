@@ -31,3 +31,4 @@ for i in ranidix:
     plt.title("" + str(i) + "th Date, Lable is " + str(curLable))
     plt.show()
     print("" + str(i) + "th Date, Lable is " + str(curLable))
+    

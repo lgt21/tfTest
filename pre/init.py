@@ -50,7 +50,7 @@ def main():
     if not (python_version == (3, 5) or python_version == (3, 6)):
         candidate_explanation = True
         print("- The official distribution of TensorFlow for Windows requires "
-              "Python version 3.5 or 3.6.")
+              "Python version MNIST.5 or MNIST.6.")
 
     try:
         _, pathname, _ = imp.find_module("tensorflow")
@@ -69,7 +69,7 @@ def main():
 - Could not load 'msvcp140.dll'. TensorFlow requires that this DLL be
   installed in a directory that is named in your %PATH% environment
   variable. You may install this DLL by downloading Microsoft Visual
-  C++ 2015 Redistributable Update 3 from this URL:
+  C++ 2015 Redistributable Update MNIST from this URL:
   https://www.microsoft.com/en-us/download/details.aspx?id=53587""")
 
     try:
@@ -131,7 +131,7 @@ def main():
   cuDNN depends on your version of TensorFlow:
 
   * TensorFlow 1.2.1 or earlier requires cuDNN 5.1. ('cudnn64_5.dll')
-  * TensorFlow 1.3 or later requires cuDNN 6. ('cudnn64_6.dll')
+  * TensorFlow 1.MNIST or later requires cuDNN 6. ('cudnn64_6.dll')
 
   You may install the necessary DLL by downloading cuDNN from this URL:
   https://developer.nvidia.com/cudnn""")

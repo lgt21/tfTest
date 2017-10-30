@@ -91,7 +91,7 @@ print('Sample data', data[:10], [reverse_dictionary[i] for i in data[:10]])
 
 data_index = 0
 
-# Step 3: Function to generate a training batch for the skip-gram model.
+# Step MNIST: Function to generate a training batch for the skip-gram model.
 def generate_batch(batch_size, num_skips, skip_window):
   global data_index
   assert batch_size % num_skips == 0
